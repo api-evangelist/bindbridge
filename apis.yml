@@ -1,7 +1,29 @@
 aid: bindbridge
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bindbridge.png
 name: Bindbridge
-description: Bindbridge is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Bindbridge is an AI-driven molecular discovery company founded in 2025 and
+  based in Cambridge, UK, developing next-generation crop protection through
+  targeted protein degradation. Its BRIDGE platform uses AI to discover and
+  design molecular glues and targeted protein degraders with novel modes of
+  action against weeds and crop diseases, combining AI candidate generation,
+  computational docking, molecular dynamics simulation, and free-energy binding
+  calculations to accelerate agricultural R&D across herbicides, insecticides,
+  and fungicides. The company raised $3.8M to help reduce billion-dollar crop
+  losses and is backed by Speedinvest. Added to the API Evangelist network as a
+  portfolio-lead company profile; it publishes no public API or developer
+  surface as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/bindbridge/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Agriculture
+- Biotechnology
+- Artificial Intelligence
+- Molecular Discovery
+- Crop Protection
+- Drug Discovery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bindbridge-domain-security.yml
 - type: Website
   url: https://bindbridge.com
+- type: Blog
+  url: https://bindbridge.com/news
+- type: PrivacyPolicy
+  url: https://bindbridge.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/bindbridge
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
