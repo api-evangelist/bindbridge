@@ -36,6 +36,9 @@ description: >-
   portfolio-lead company profile; it publishes no public API or developer
   surface as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/bindbridge/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Added to the API Evangelist network as a portfolio-lead company profile; it publishes no public API or developer surface as of this enrichment pass."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
